@@ -1,0 +1,24 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/css/bulma.css";
+
+
+.hero {
+    background: #2e2d2e;
+}
+
+#leave-container {
+    border: 2px solid white;
+    margin: auto;
+    min-height: 600px;
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.leave {
+    width:35px;
+    height:35px;
+    position:absolute;
+    background: url('http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png');
+    background-size: 100% 100%;
+}
